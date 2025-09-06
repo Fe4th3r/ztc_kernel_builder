@@ -12,16 +12,16 @@ IMAGE_COMP: Final[Literal["raw", "lz4", "gz"]] = "gz"
 LTO: Literal["thin", "full"] = "thin"
 
 # ---- Kernel
-KERNEL_REPO: Final[str] = "github.com:ESK-Project/android_kernel_xiaomi_mt6895"
-KERNEL_BRANCH: Final[str] = "16"
+KERNEL_REPO: Final[str] = "github.com:Fe4th3r/android_gki_kernel_5.10_common"
+KERNEL_BRANCH: Final[str] = "android12-5.10-2025-06"
 
 # ---- AnyKernel3
 ANYKERNEL_REPO = "github.com:ESK-Project/AnyKernel3"
 ANYKERNEL_BRANCH = "android12-5.10"
 
 # ---- Release
-RELEASE_REPO: Final[str] = "ESK-Project/esk-releases"
-RELEASE_BRANCH: Final[str] = "main"
+RELEASE_REPO: Final[str] = "Fe4th3r/ztc_kernel_builder"
+RELEASE_BRANCH: Final[str] = "master"
 
 # ---- Clang
 CLANG_VARIANT: Final[Literal["SLIM", "AOSP", "RV", "YUKI", "LILIUM", "NEUTRON"]] = (
