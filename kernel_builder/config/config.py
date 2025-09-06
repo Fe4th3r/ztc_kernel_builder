@@ -20,8 +20,8 @@ ANYKERNEL_REPO = "github.com:ESK-Project/AnyKernel3"
 ANYKERNEL_BRANCH = "android12-5.10"
 
 # ---- Release
-RELEASE_REPO: Final[str] = "Fe4th3r/ztc_kernel_builder"
-RELEASE_BRANCH: Final[str] = "master"
+RELEASE_REPO: Final[str] = "ESK-Project/esk-releases"
+RELEASE_BRANCH: Final[str] = "main"
 
 # ---- Clang
 CLANG_VARIANT: Final[Literal["SLIM", "AOSP", "RV", "YUKI", "LILIUM", "NEUTRON"]] = (
